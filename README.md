@@ -2,21 +2,21 @@
 In this repository you can find the code used in the development of my master thesis and also a summarised version of the inputs and outputs of NIMGree
 
 # This repository is divided into following directories:
-├── NIMGree
-│   ├── Archivos_ejemplo
-│   │   ├── ejemplo_input_latest_P1.tsv
-│   │   ├── ejemplo_input_latest_P2.tsv
-│   │   ├── ejemplo_input_multivcf.vcf
-│   │   └── ejemplo_output_NIMGree.tsv
-│   ├── common.py
-│   └── NIMGree.py
-└── Scripts_VCalling
-    ├── combinegVCF.sh
-    ├── genotypeGVCF.sh
-    ├── HC_gVCF.sh
-    ├── HC_JointCalling.sh
-    ├── vqsr_JC.sh
-    └── vqsr.sh
+├── NIMGree \n
+│   ├── Archivos_ejemplo \n
+│   │   ├── ejemplo_input_latest_P1.tsv \n
+│   │   ├── ejemplo_input_latest_P2.tsv \n
+│   │   ├── ejemplo_input_multivcf.vcf \n
+│   │   └── ejemplo_output_NIMGree.tsv \n
+│   ├── common.py\n
+│   └── NIMGree.py \n
+└── Scripts_VCalling \n
+    ├── combinegVCF.sh \n
+    ├── genotypeGVCF.sh \n
+    ├── HC_gVCF.sh \n
+    ├── HC_JointCalling.sh \n
+    ├── vqsr_JC.sh \n
+    └── vqsr.sh \n
 
 # The following files are located in the NIMGree directory:
   - common.py : in it are the functions that the NIMGree script imports in order to execute its code.
